@@ -144,7 +144,7 @@ export default function Home(): ReactNode {
                 </div>
               )
             ) : (
-              <div style={{ maxWidth: 900, width: '100%' }}>
+              <div>
                 <Quiz
                   quiz={quizData}
                   timer={quizDuration}
